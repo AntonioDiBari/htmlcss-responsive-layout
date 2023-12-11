@@ -62,6 +62,7 @@ a {
 .col1-2 {
   width: calc(100% / 2);
 }
+
 [class*="col"] {
   padding: 1rem;
 }
@@ -101,3 +102,38 @@ nav {
 }
 
 /* PICTURE */
+
+#picture {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#picture > .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 5rem;
+}
+
+/* TESTIMONIAL */
+
+#testimonial {
+  margin: 2.5rem;
+  text-align: center;
+}
+
+.feedback {
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+
+.col20 {
+  width: 20%;
+}
+.col80 {
+  width: 80%;
+}

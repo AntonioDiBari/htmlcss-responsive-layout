@@ -1,10 +1,23 @@
 /***TABLET MEDIA */
 @media screen and (max-width: 768px) {
   /* DEMO APP */
+  .container {
+    width: 90vw;
+  }
   .card-left,
   .card-right {
     width: 100%;
   }
+
+  /* PICTURE */
+  #picture .col1-2 {
+    width: 100%;
+  }
+  #picture > .container {
+    padding: 0;
+  }
+
+  /* TESTIMONIAL */
 }
 
 /***MOBILE MEDIA */
@@ -12,6 +25,14 @@
   /* DEMO APP */
   #demo-app .col1-3,
   #demo-app .col2-3 {
+    width: 100%;
+  }
+
+  /* PICTURE */
+
+  /* TESTIMONIAL */
+  .col80,
+  .col20 {
     width: 100%;
   }
 }
