@@ -25,6 +25,16 @@
   }
 
   /* #ABOUT-US */
+  .col70 {
+    width: 60%;
+  }
+  .col30 {
+    width: 40%;
+  }
+  #about-us > .container {
+    padding: 0;
+    margin: 0 auto;
+  }
 }
 
 /***MOBILE MEDIA */
@@ -49,4 +59,10 @@
   }
 
   /* #ABOUT-US */
+  .col70 {
+    width: 100%;
+  }
+  .col30 {
+    width: 100%;
+  }
 }
