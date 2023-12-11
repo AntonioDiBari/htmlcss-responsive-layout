@@ -17,13 +17,20 @@ a {
   text-decoration: none;
 }
 
+/* ROOT */
+:root {
+  --primary-color: #9792e4;
+  --secondary-color: #0084fd;
+  --card-bg: #b5ddff;
+  --card-color: #5a6e7f;
+}
+
 /* GENERICS */
 
 .container {
   width: 70vw;
   margin: 0 auto;
   padding: 0 1rem;
-  background-color: brown;
 }
 .webapp {
   width: 100%;
@@ -38,3 +45,59 @@ a {
 }
 
 /***GRID***/
+
+.row {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col1-3 {
+  width: calc(100% / 3);
+}
+.col2-3 {
+  width: calc(100% / 3 * 2);
+}
+.col1-2 {
+  width: calc(100% / 2);
+}
+[class*="col"] {
+  padding: 1rem;
+}
+
+/* HEADER */
+#header {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+#header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo,
+nav {
+  padding: 10px 0;
+}
+
+/* DEMO APP */
+
+.card {
+  background-color: var(--card-bg);
+  color: var(--card-color);
+  padding: 10px;
+}
+
+.col2-3 > .card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#demo-app {
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+/* PICTURE */

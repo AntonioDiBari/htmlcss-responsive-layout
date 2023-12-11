@@ -1,0 +1,17 @@
+/***TABLET MEDIA */
+@media screen and (max-width: 768px) {
+  /* DEMO APP */
+  .card-left,
+  .card-right {
+    width: 100%;
+  }
+}
+
+/***MOBILE MEDIA */
+@media screen and (max-width: 480px) {
+  /* DEMO APP */
+  #demo-app .col1-3,
+  #demo-app .col2-3 {
+    width: 100%;
+  }
+}
