@@ -182,3 +182,24 @@ nav {
   top: 0;
   right: 0;
 }
+
+/* TRIAL */
+#trial {
+  text-align: center;
+  background-color: var(--primary-color);
+}
+#trial > .container {
+  padding: 2rem 15rem;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #333333;
+  text-align: center;
+  color: #e5e5e5;
+}
+
+#footer > .container {
+  padding: 2rem 18rem;
+}
