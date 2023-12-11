@@ -18,6 +18,13 @@
   }
 
   /* TESTIMONIAL */
+
+  /* BENEFITS */
+  #benefits .col1-3 {
+    width: 50%;
+  }
+
+  /* #ABOUT-US */
 }
 
 /***MOBILE MEDIA */
@@ -35,4 +42,11 @@
   .col20 {
     width: 100%;
   }
+
+  /* BENEFITS */
+  #benefits .col1-3 {
+    width: 100%;
+  }
+
+  /* #ABOUT-US */
 }

@@ -118,7 +118,7 @@ nav {
 /* TESTIMONIAL */
 
 #testimonial {
-  margin: 2.5rem;
+  margin: 2.5rem 0;
   text-align: center;
 }
 
@@ -137,3 +137,21 @@ nav {
 .col80 {
   width: 80%;
 }
+
+/* BENEFITS */
+
+#benefits {
+  background-color: var(--primary-color);
+  color: var(--card-color);
+  padding-bottom: 2rem;
+}
+h2 {
+  text-align: center;
+  color: white;
+  padding: 3rem 0;
+}
+.box {
+  background-color: white;
+}
+
+/* #ABOUT-US */
