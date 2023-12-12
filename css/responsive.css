@@ -79,6 +79,9 @@
   .col20 {
     width: 100%;
   }
+  .img-round {
+    max-width: 200px;
+  }
 
   /* BENEFITS */
   #benefits .col1-3 {
