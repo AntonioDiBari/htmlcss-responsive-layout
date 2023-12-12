@@ -407,7 +407,7 @@ li a {
   font-weight: 700;
   margin-bottom: 1.5rem;
 }
-.started {
+#trial .started {
   display: inline-block;
   background-color: white;
   color: var(--primary-color);
@@ -431,5 +431,14 @@ li a {
 }
 
 #footer > .container {
-  padding: 2rem 18rem;
+  max-width: 25%;
+  padding: 2.5rem 0;
+}
+
+.footer-text {
+  margin-top: 3rem;
+}
+.footer-text a {
+  text-decoration: underline;
+  color: var(--primary-color);
 }

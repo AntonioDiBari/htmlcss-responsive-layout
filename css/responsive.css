@@ -63,7 +63,7 @@
   /* FOOTER */
 
   #footer > .container {
-    padding: 2rem 4rem;
+    max-width: 50%;
   }
 }
 
@@ -107,6 +107,6 @@
   /* FOOTER */
 
   #footer > .container {
-    padding: 2rem 0;
+    max-width: 100%;
   }
 }
