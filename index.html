@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- link a font aws -->
     <link
       rel="stylesheet"
@@ -18,8 +24,17 @@
   <body>
     <header id="header">
       <div class="container">
-        <div class="logo">LOGO</div>
-        <nav>LINKS</nav>
+        <div class="logo"><img src="./img/logo.png" alt="Logo" /></div>
+        <nav>
+          <ul>
+            <li><a href="#">Planning</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+          <div class="started"><a href="#">Get Started</a></div>
+        </nav>
+        <span class="menu"><i class="fa-solid fa-bars"></i></span>
       </div>
     </header>
     <main>
@@ -28,21 +43,57 @@
           <div class="row">
             <div class="col2-3">
               <div class="card">
-                <div class="card-left">Get a demo application</div>
-                <div class="card-right">IMG</div>
+                <div class="card-left">
+                  <h3>Get a demo application</h3>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Officiis, odit. Natus, neque placeat in. expedita iste nobis
+                    tempora officiis molestias aut.
+                  </p>
+                  <div class="store">
+                    <i class="fa-brands fa-apple"></i> App Store
+                  </div>
+                </div>
+                <div class="card-right">
+                  <img src="./img/phone.png" alt="Phone" />
+                </div>
               </div>
             </div>
             <div class="col1-3">
-              <div class="card">Clean Code</div>
+              <div class="card">
+                <i class="fa-regular fa-file-code"></i>
+                <h3>Clean Code</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, odit. Natus, neque placeat in. expedita iste nobis
+                tempora officiis molestias aut.
+              </div>
             </div>
             <div class="col1-3">
-              <div class="card">Web Design</div>
+              <div class="card">
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h3>Web Design</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, odit. Natus, neque placeat in. expedita iste nobis
+                tempora officiis molestias aut.
+              </div>
             </div>
             <div class="col1-3">
-              <div class="card">Development</div>
+              <div class="card">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Development</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, odit. Natus, neque placeat in. expedita iste nobis
+                tempora officiis molestias aut.
+              </div>
             </div>
             <div class="col1-3">
-              <div class="card">Branding</div>
+              <div class="card">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>Branding</h3>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officiis, odit. Natus, neque placeat in. expedita iste nobis
+                tempora officiis molestias aut.
+              </div>
             </div>
           </div>
         </div>
@@ -54,7 +105,11 @@
             Strategic Planning <br />Lorem, ipsum dolor sit amet consectetur
             adipisicing elit. Nulla voluptates unde atque animi molestias magnam
             modi sequi repellat facere suscipit, non, ea itaque amet autem
-            similique a laudantium aspernatur distinctio!
+            similique a laudantium aspernatur distinctio!Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Quibusdam error autem
+            praesentium? Necessitatibus officia repellat quasi voluptas
+            provident perferendis, natus doloremque quos nobis esse suscipit
+            odit ut commodi? Mollitia, nobis?
           </div>
           <div class="col1-2">
             IMG <br />
@@ -81,7 +136,7 @@
               commodi, tempore minus tenetur corporis minima labore in earum
               impedit aut? Nisi numquam fuga quia nam iusto accusantium nesciunt
               pariatur!
-              <h3>NAT REYNOLDS</h3>
+              <span>NAT REYNOLDS</span>
             </div>
           </div>
           <div class="feedback">
@@ -91,7 +146,7 @@
               commodi, tempore minus tenetur corporis minima labore in earum
               impedit aut? Nisi numquam fuga quia nam iusto accusantium nesciunt
               pariatur!
-              <h3>NAT REYNOLDS</h3>
+              <span>NAT REYNOLDS</span>
             </div>
           </div>
           <div class="feedback">
@@ -101,7 +156,7 @@
               commodi, tempore minus tenetur corporis minima labore in earum
               impedit aut? Nisi numquam fuga quia nam iusto accusantium nesciunt
               pariatur!
-              <h3>NAT REYNOLDS</h3>
+              <span>NAT REYNOLDS</span>
             </div>
           </div>
         </div>

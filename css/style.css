@@ -11,10 +11,17 @@ img {
 
 ul {
   list-style-type: none;
+  display: inline-block;
 }
-
+li {
+  display: inline-block;
+}
 a {
   text-decoration: none;
+}
+body {
+  font-family: "Fredoka", sans-serif;
+  font-size: 0.8rem;
 }
 
 /* ROOT */
@@ -28,7 +35,7 @@ a {
 /* GENERICS */
 
 .container {
-  width: 70vw;
+  width: 65%;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -70,12 +77,12 @@ a {
 /* HEADER */
 #header {
   background-color: var(--secondary-color);
-  color: white;
 }
 
 #header > .container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo,
@@ -83,24 +90,88 @@ nav {
   padding: 10px 0;
 }
 
+.logo img {
+  height: 30px;
+}
+nav li {
+  margin-right: 1rem;
+  font-size: 0.8rem;
+}
+.started {
+  display: inline-block;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.started a {
+  color: black;
+}
+li a {
+  color: white;
+}
+
+.menu {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+}
 /* DEMO APP */
 
 .card {
   background-color: var(--card-bg);
   color: var(--card-color);
-  padding: 10px;
+  padding: 0 1.5rem;
+  border-radius: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  height: 100%;
+}
+#demo-app h3 {
+  color: var(--secondary-color);
+  margin: 1rem 0;
+  font-size: 1.1rem;
 }
 
 .col2-3 > .card {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-end;
+  gap: 30px;
 }
 #demo-app {
   margin-top: 1rem;
   margin-bottom: 2.5rem;
 }
-
+.store {
+  background-color: var(--secondary-color);
+  color: white;
+  margin: 2rem 0;
+  padding: 6px 2.5rem;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 0.8rem;
+}
+.col2-3 .card-left {
+  width: calc(100% / 2 - 15px);
+}
+.col2-3 .card-right {
+  width: calc(100% / 2 - 15px);
+  display: flex;
+  justify-content: center;
+}
+.col2-3 .card-right img {
+  height: 200px;
+  display: block;
+}
+#demo-app .col1-3 .card {
+  text-align: center;
+  padding: 20px;
+}
+.col1-3 .card i {
+  font-size: 4rem;
+  color: var(--secondary-color);
+}
 /* PICTURE */
 
 #picture {
@@ -110,9 +181,9 @@ nav {
 
 #picture > .container {
   display: flex;
-  justify-content: center;
+  align-items: flex-end;
   flex-wrap: wrap;
-  padding: 3rem 5rem;
+  max-width: 50vw;
 }
 
 /* TESTIMONIAL */

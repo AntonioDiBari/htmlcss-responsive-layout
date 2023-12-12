@@ -1,20 +1,32 @@
 /***TABLET MEDIA */
 @media screen and (max-width: 768px) {
+  /* HEADER */
+  nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
   /* DEMO APP */
   .container {
-    width: 90vw;
+    width: 90%;
   }
   .card-left,
   .card-right {
     width: 100%;
   }
-
+  .col2-3 .card-left {
+    width: 100%;
+  }
+  .col2-3 .card-right {
+    width: 100%;
+  }
   /* PICTURE */
   #picture .col1-2 {
     width: 100%;
   }
   #picture > .container {
-    padding: 0;
+    max-width: 100vw;
   }
 
   /* TESTIMONIAL */
