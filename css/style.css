@@ -312,7 +312,8 @@ li a {
 #benefits .card {
   background-color: white;
 }
-#benefits .col1-3 .card > h2 {
+#benefits .col1-3 .card > h2,
+#about-us .col70 > h2 {
   color: var(--primary-color);
   text-align: left;
   font-size: 3.5rem;
@@ -340,17 +341,17 @@ li a {
 #about-us > .container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 7rem;
+  max-width: 60%;
   margin: 2.5rem auto;
 }
-/* .col70 {
+.col70 {
   width: 70%;
 }
 .col30 {
   width: 30%;
   position: relative;
   color: var(--primary-color);
-} */
+}
 
 #about-us h2 {
   text-align: left;
@@ -358,8 +359,28 @@ li a {
   padding: 1rem 0;
 }
 
+#about-us p {
+  margin-bottom: 1.5rem;
+  line-height: 30px;
+  font-size: 1rem;
+}
+#about-us h3 {
+  color: var(--primary-color);
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.button {
+  color: white;
+  background-color: var(--primary-color);
+  display: inline-block;
+  border-radius: 25px;
+  padding: 5px 10px;
+  font-size: 0.7rem;
+}
 .quotes {
   position: absolute;
+  font-size: 5rem;
   top: 0;
   right: 0;
 }
@@ -368,11 +389,39 @@ li a {
 #trial {
   text-align: center;
   background-color: var(--primary-color);
+  color: white;
 }
 #trial > .container {
-  padding: 2rem 15rem;
+  max-width: 30%;
+  padding: 2.5rem 0;
 }
-
+#trial h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+#trial h2 {
+  color: #fdc15f;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.started {
+  display: inline-block;
+  background-color: white;
+  color: var(--primary-color);
+  border-radius: 35px;
+  padding: 15px 40px;
+  margin: 1.5rem 0;
+}
+.copyright {
+  display: block;
+}
+.copyright a {
+  text-decoration: underline;
+  color: white;
+}
 /* FOOTER */
 
 #footer {

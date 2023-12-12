@@ -41,6 +41,9 @@
   }
 
   /* #ABOUT-US */
+  #about-us > .container {
+    max-width: 100%;
+  }
   .col70 {
     width: 60%;
   }
@@ -54,7 +57,7 @@
 
   /* TRIAL */
   #trial > .container {
-    padding: 2rem 4rem;
+    max-width: 50%;
   }
 
   /* FOOTER */
@@ -98,7 +101,7 @@
 
   /* TRIAL */
   #trial > .container {
-    padding: 2rem 0;
+    max-width: 100%;
   }
 
   /* FOOTER */
