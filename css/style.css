@@ -121,7 +121,7 @@ li a {
   background-color: var(--card-bg);
   color: var(--card-color);
   padding: 0 1.5rem;
-  border-radius: 20px;
+  border-radius: 15px;
   line-height: 20px;
   font-weight: 500;
   height: 100%;
@@ -177,15 +177,61 @@ li a {
 #picture {
   background-color: var(--primary-color);
   color: white;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+#picture p {
+  line-height: 20px;
 }
 
 #picture > .container {
   display: flex;
   align-items: flex-end;
   flex-wrap: wrap;
-  max-width: 50vw;
+  max-width: 50%;
 }
-
+#picture .col1-2 > img {
+  margin-bottom: 6rem;
+}
+#picture h2 {
+  margin-bottom: 35px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#picture h3 {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+#picture .col1-2 .card {
+  background-color: white;
+  border-radius: 35px;
+  text-align: center;
+  color: black;
+}
+#picture .col1-2 .card img {
+  height: 170px;
+  margin: 25px 0;
+}
+#picture .col1-2 .card p {
+  font-weight: 500;
+  font-style: italic;
+}
+.arrow {
+  background-color: var(--primary-color);
+  margin: 1rem 0;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 18px;
+  position: relative;
+}
+.arrow span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* TESTIMONIAL */
 
 #testimonial {
